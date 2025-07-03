@@ -27,7 +27,7 @@ export default function Home() {
 
   const generateEpisode = async () => {
     if (usageCount >= 10) {
-      setError('今日の生成回数上限（3回）に達しました。明日また試してください。');
+      setError('今日の生成回数上限（10回）に達しました。明日また試してください。');
       return;
     }
 
